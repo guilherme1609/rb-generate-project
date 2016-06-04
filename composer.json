@@ -1,0 +1,31 @@
+{
+    "name": "rubeus/generate-project",
+    "description": "Conexao Banco de dados",
+    "keywords": ["rubeus","muriaé"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "José Geraldo da Costa",
+            "email": "jgt.josegeraldo@gmail.com",
+            "role": "Developer"
+        }
+    ],
+     "support": {
+        "email": "jgt.josegeraldo@gmail.com"
+    },
+    "version": "1.0.0",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Rubeus\\FrontController\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
