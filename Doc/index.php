@@ -5,12 +5,12 @@
         <title>Site Rubeus</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type="text/javascript" src="vendor/Rubeus/Generator/Doc/ConexaoServidor/GCS.js"></script>
-        <script type="text/javascript" src="vendor/Rubeus/Generator/Doc/lib/jquery/jquery.js"></script>
-        <script type="text/javascript" src="vendor/Rubeus/Generator/Doc/lib/jquery/jquery.form.js"></script>
-        <link rel = "stylesheet" type = "text/css" href="vendor/Rubeus/Generator/Doc/css/estilo.css"/>
-        <link rel = "stylesheet" type = "text/css" href="vendor/Rubeus/Generator/Doc/css/normalize.css"/>
-        <link rel = "stylesheet" type = "text/css" href="vendor/Rubeus/Generator/Doc/css/estiloBarra.css"/>
+        <script type="text/javascript" src="vendor/rubeus/generate-project/Doc/ConexaoServidor/GCS.js"></script>
+        <script type="text/javascript" src="vendor/rubeus/generate-project/Doc/lib/jquery/jquery.js"></script>
+        <script type="text/javascript" src="vendor/rubeus/generate-project/Doc/lib/jquery/jquery.form.js"></script>
+        <link rel = "stylesheet" type = "text/css" href="vendor/rubeus/generate-project/Doc/css/estilo.css"/>
+        <link rel = "stylesheet" type = "text/css" href="vendor/rubeus/generate-project/Doc/css/normalize.css"/>
+        <link rel = "stylesheet" type = "text/css" href="vendor/rubeus/generate-project/Doc/css/estiloBarra.css"/>
     </head>
     <body>
         <div id="page"> 
