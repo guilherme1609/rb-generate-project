@@ -224,7 +224,7 @@ function lerDiretorio($diretorio, &$mapeamentoEntidade){
 }
 
 
-$pasta = __DIR__.'/../../../../src/';
+$pasta = __DIR__.'/../../../../';
 lerDiretorio($pasta, $mapeamentoEntidade);
 
 echo str_replace('\\','\\\\',implode(',',$mapeamentoEntidade));
