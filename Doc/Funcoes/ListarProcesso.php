@@ -105,8 +105,8 @@ abstract class LerXmlProcesso{
             }
         }   
         if(!self::$xml){
-            if($etapa) self::$xml = XML::ler(diretorio.$processo.'/'.$etapa);
-            else self::$xml = XML::ler(diretorio.$processo.'/'.$processo);
+            if($etapa) self::$xml = XML::ler(diretorio.'/'.$processo.'/'.$etapa);
+            else self::$xml = XML::ler(diretorio.'/'.$processo.'/'.$processo);
         }
        
         if(self::$xml){
