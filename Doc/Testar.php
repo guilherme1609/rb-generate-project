@@ -62,7 +62,7 @@ function enviar(){
     console.log(processo,ModuloAtual,processo ,DGlobal[processo].url);
     //$('#resultado pre').html('');
     GCS.conectar('post',
-                 'http://<?php echo URL_PROJETO ?>/api/Teste/'+DGlobal[processo].url,
+                 'http://<?php echo URL_PROJETO ?>/api/Teste/'+DGlobal[processo].url+'?ambTeste=1',
                  dados,
                  acao,1,'form');
 }
