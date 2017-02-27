@@ -13,7 +13,7 @@
         <link rel = "stylesheet" type = "text/css" href="<?php echo DIR_DOC ?>vendor/rubeus/generate-project/Doc/css/estiloBarra.css"/>
     </head>
     <body>
-        <div id="page"> 
+        <div id="page">
             <?php
                 $array = array(
                     array("texto" => "Testar", "link" => "?pag=1"),
@@ -22,28 +22,28 @@
                 );
             ?>
             <div class="barra-superiror">
-                <?php 
+                <?php
                     for($i = 0; $i < count($array); $i++){?>
                         <div class="menu"><a href="<?php echo $array[$i]['link'];?>"><?php echo $array[$i]['texto'];?></a></div>
                 <?php } ?>
             </div>
-                    
-            <?php            
+
+            <?php
                 switch ($_GET['pag']){
                     case 1:
                         include 'Testar.php';
                         break;
-                    case 2:
-                        include 'Upload.php';  
-                        break;
+                    /*case 2:
+                        include 'Upload.php';
+                        break;*/
                     default:
                         include 'Testar.php';
                         break;
-                }            
+                }
             ?>
         </div>
-        <script> 
-            
+        <script>
+
         </script>
     </body>
 </html>
