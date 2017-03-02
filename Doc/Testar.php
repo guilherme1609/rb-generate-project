@@ -123,4 +123,5 @@ if(APLICACAO_PRODUCAO == 1){
 
     montarFuncinalidade();
     </script>
+    <?php
 }
